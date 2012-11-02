@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_label" >通话记录</string>
+    <string name="settings_description" >通话记录中的号码、联系人姓名</string>
+    <string name="searchHint">搜索通话记录</string>
+    <string name="dot" >:\n:\n:</string>
+    <string name="has_no_callslog" > 未找到匹配的通话记录 </string>
+	<string name="search_result_display" >  的搜索结果</string>
+	
+	<!-- for call log duration time  -->
+	<string name="call_s" > 秒 </string>
+	<string name="call_m" > 分 </string>
+	<string name="call_h" > 小时 </string>
+</resources>

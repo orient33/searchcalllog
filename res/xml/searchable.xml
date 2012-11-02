@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<searchable xmlns:android="http://schemas.android.com/apk/res/android"
+    android:icon="@drawable/ic_contact_picture"
+    android:label="@string/app_label"
+    android:hint="@string/searchHint"
+    android:searchSettingsDescription="@string/settings_description"
+    android:includeInGlobalSearch="true"
+    android:queryAfterZeroResults="true"
+    android:searchMode="queryRewriteFromText"
+ 	android:searchSuggestAuthority="cn.ingenic.CallLogSearch_"
+    android:searchSuggestIntentAction="android.intent.action.VIEW"
+>
+	<!-- actionkey
+		android:keycode="KEYCODE_CALL"
+		android:queryActionMsg="call"
+		android:suggestActionMsg="call"
+	-->
+</searchable>
+<!--  	android:searchSuggestAuthority="cn.ingenic.CallLogSearch_"  -->

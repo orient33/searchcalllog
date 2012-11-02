@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.ingenic.CallLogSearch">
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.CALL_PRIVILEGED" />
+    <application android:label="@string/app_label"
+    			android:icon="@drawable/call_log_search"
+    	
+    	>
+    
+        <activity android:name="CLLauncher"
+                android:label="@string/app_label"
+                android:icon="@drawable/call_log_search"
+                android:stateNotNeeded="true"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data android:name="android.app.searchable"
+                    android:resource="@xml/searchable" />
+        </activity>
+          <provider android:name="CProvider" android:authorities="cn.ingenic.CallLogSearch_" />
+    </application>
+
+</manifest>
